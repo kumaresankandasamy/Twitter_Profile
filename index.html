@@ -1,20 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Twitter Home Page</title>
+	<title>Twitter Profile Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <header>
-        <div class="wrapper">
+    <div class="wrapper">
             <img src="img/home_logo.png">
             <img src="img/Home_page-05.png">
+            <div class="nav-right">
+                <form class="form">
+                <input type="search" name="search" class="form-control" placeholder="search ....">
+                </form>
+            </div>
             <div style="display:flex;">
                 <img src="img/Home_page-10.png">
                 <button id="logout">Logout</button>
             </div>
         </div>
-    </header>
+    </div>
+</header>
+<section class="cover"></section>
+<nav class="main-nav">
+    <div class="container1">
+        <div class="row">
+            <div class="column1">
+                <div class="profile-avatar">
+                        <a href="#"> <img src="" ></a>
+                </div>
+
+            </div>
+            <div class="column2">
+                    <ul class="list-unstyled num">
+                        <li class="active">
+                            <a href="#">
+                    Tweets
+                        <span>60</span>
+                    </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                    Following
+                        <span>100</span>
+                    </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                    Followers
+                        <span>500</span>
+                    </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                    Likes
+                        <span>200</span>
+                    </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                    Moments
+                        <span>2</span>
+                    </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column3">
+                    <button class="btn edit">Edit Profile</button>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+</nav>
+
     <div class="container">
         <div class="sidebar">
             <div class="row profile">
@@ -26,8 +86,16 @@
                     <div class="right">
                         <div class="username">User Name</div>
                         <div class="userid">@Login user-id</div>
+
                     </div>
+
                 </div>
+                <div>
+                    <p style="text-align: left;text-align: center;">Joined April 2015</p>
+                </div>
+                <br>
+                <br>
+
                 <div class="stats">
                     <div class="box">
                         <p>Tweets</p>
